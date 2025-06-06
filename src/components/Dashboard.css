@@ -1,0 +1,55 @@
+.earnings-card {
+  width: 250px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.amount {
+  color: orange;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.label {
+  margin: 5px 0 0;
+  font-weight: 500;
+  color: #333;
+}
+
+.money-icon {
+  font-size: 28px;
+  color: orange;
+}
+
+.bottom-section {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.up-icon {
+  font-size: 14px;
+}
+
+.dashboard-container {
+  padding: 20px;
+  background: #f5f7fc;
+  font-family: 'Segoe UI', sans-serif;
+}
